@@ -17,7 +17,7 @@ export default function AppRouter() {
             renders the first one that matches the current URL. */}
         <Switch>
             <Route exact path="/login" component={LoginScreen}/>
-            <Route exact path="/" component={DashboardRoutes}/>
+            <Route path="/" component={DashboardRoutes}/>
         </Switch>
       </div>
     </Router>

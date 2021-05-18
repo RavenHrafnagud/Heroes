@@ -1,9 +1,9 @@
 import React from 'react'
 
-const LoginScreen=()=> {
+function LoginScreen({history}){
 
     const handleLogin=()=>{
-        console.log("click");
+        history.push("/");
     }
 
     return (
